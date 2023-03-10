@@ -234,10 +234,12 @@ public class TextBook extends Publication {
         outputValue += Decorate.ANSI_CYAN + "Precio de distribución: " + Decorate.DECORATION_RESET + Decorate.ITALIC + getDistributionPrice() + Decorate.DECORATION_RESET + " €" + "\n";
         outputValue += Decorate.ANSI_CYAN + "Precio de venta al público: " + Decorate.DECORATION_RESET + Decorate.ITALIC + getSellingPrice() + Decorate.DECORATION_RESET + " €";
 
-        outputValue += "\n\n" + "NOTA: Los impuestos no han sido calculados en esta representación.";
+        outputValue += "\n\n" + 
+        Decorate.ANSI_RED+ "NOTA :" + Decorate.DECORATION_RESET + " Los impuestos no han sido calculados en esta representación.";
 
         return outputValue;
     }
 
     
 }
+

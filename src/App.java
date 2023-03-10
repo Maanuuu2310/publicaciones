@@ -119,7 +119,7 @@ public class App {
                     }
                     break;
                 case 0:
-                    System.out.println("\n" + "Saliendo del menu");
+                    System.out.println("\n" + "Editorial cerrada uwu tenga buen dia (:");
                     break;
                 case 9:
                     // SECRETO
