@@ -1,6 +1,4 @@
 import java.util.Scanner;
-
-import com.planeta.utils.Decorate;
 import com.planeta.utils.TaxManager;
 import com.planeta.utils.Error;
 
@@ -14,8 +12,7 @@ public class App {
 
         System.out.println("\n" + "o0o========o0o=======================oooooo0|0-0|0ooooooo=======================o0o========o0o");
 
-        System.out.println("\n" + "Bienvenido Adrian a la editorial el planeta" + "\n");  // He añadido los saltos de esta forma porque estéticamente me parecen mejor
-
+        System.out.println("\n" + "Bienvenido Adrian a la editorial el planeta" + "\n");  
         System.out.println("-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o0oo0=0oo0o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o- \n");
 
         System.out.println("Las opciones de nuestro catálogo son las siguientes: " + "\n");
@@ -120,11 +117,6 @@ public class App {
                     break;
                 case 0:
                     System.out.println("\n" + "Editorial cerrada uwu tenga buen dia (:");
-                    break;
-                case 9:
-                    // SECRETO
-                    System.out.println(" ");
-                    Decorate.showAllDecorations();
                     break;
                 default:
                     if (mainMenuValue != -1) {

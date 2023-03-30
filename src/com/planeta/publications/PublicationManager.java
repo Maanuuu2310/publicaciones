@@ -3,7 +3,7 @@ package com.planeta.publications;
 import com.planeta.utils.Error;
 
 public class PublicationManager {
-    public static final int MAX_PUBLICATIONS = 3;
+    public static final int MAX_PUBLICATIONS = 4;
     public static Publication publications[] = new Publication[MAX_PUBLICATIONS];
 
     public static int publicationCount = 0;
@@ -13,7 +13,7 @@ public class PublicationManager {
             publications[publicationCount] = publicationToAdd;
             publicationCount++;
             System.out.println(Error.CORRECT_CODE_8X000);
-        } else {            // Este statement se podria omitir, pero lo he dejado por seguridad y buena praxis ( ya que se hace una comprobación en el Main)
+        } else { 
             System.out.println(Error.ADVERT_CODE_9X000);
         }
     }
